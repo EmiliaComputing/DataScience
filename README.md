@@ -35,3 +35,19 @@ Afterwards, the computer uses the phrase matcher which was imported from spaCy t
 ### Evaluation
 I feel that this project went well as it enabled me to successfully achieve a greater understanding of how computers learn as well as how they analyse text and data. Additionally, I was able to create a project which analysed text and was able to make statements based on that data.
 
+## Global Warming
+
+### Introduction
+I chose to create this project because I wanted to develop a greater understanding of data science. This project attempts to prove that climate change is real by drawing graphs showing the average temperature rising whilst the uncertainty about those temperatures is going down. 
+
+### Project Goals/Requirements
+I decided to code this in python because I wanted to use “matplotlib.pyplot” to draw the graphs and present the data. I also wanted to use “pandas” to allow the computer to read the data. Additionally, I felt that python would be the language where I could best create a project which would display data.
+
+### Design
+This program does not have a user interface, its only purpose is to display the data contained in the data sets. There is no way for the user to interact with the computer. 
+
+Firstly, the computer imports what is necessary to read the files and present the data. The computer then draws a table of the data. Afterwards, the computer calculates the average temperature and the average deviation. Then the computer shows graphs proving that the average temperature is going up whilst the uncertainty is going down.
+
+### Evaluation
+I felt that this project went well because I succeeded in creating a project which could display data of the average temperature each year in the form of graphs in order to prove that climate change is happening as the user would be able to see a rise in the mean temperature. 
+
