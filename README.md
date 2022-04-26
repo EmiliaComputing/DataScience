@@ -12,7 +12,31 @@ I decided to code this project using python because I wanted to create a text ba
 ### Design
 The user interacts with the computer by text. They are asked to input data into the computer. There are no buttons, typing into a box is the only way in which the user can interact with the program.
 
-Firstly, the algorithm imports what is necessary to perform the needed operations and checks the data before displaying it in a series of tables. Then, certain features from the data (the total number of rooms, the total number of bedrooms, the median age of the housing and the number of houses in the area) are selected to estimate the average price of housing in that area. A new graph is shown which only displays these components. The user then inputs a value for each of these before the computer predicts what the average price of housing in that area would be.
+Firstly, the algorithm imports what is necessary to perform the needed operations and checks the data before displaying it in a series of tables. Then, certain features from the data (the total number of rooms, the total number of bedrooms, the median age of the housing and the number of houses in the area) are selected to estimate the average price of housing in that area. A new graph is shown which only displays these components. The user then inputs a value for each of these before the computer predicts what the average price of housing in that area would be. The number printed at the bottom is the average price of a house in that area.
+
+The code below shows how the computer calculates the average house price. It is written in python.
+
+    room_new = int(input("Enter number of rooms in the new area: "))
+
+    bedroom_new = int(input("Enter the number of bedrooms in the new area: "))
+
+    median_age_new = int(input("Enter the median age of housing in the new area in years: "))
+
+    households_new = int(input("Enter the number of households in the new area: "))
+
+    new_area={"total_rooms":[room_new],
+              "total_bedrooms":[bedroom_new],
+              "housing_median_age":[median_age_new],
+              "households":[households_new]}
+
+    new_area_df = pd.DataFrame.from_dict(new_area)
+
+    predictions = housing_price_model.predict(new_area_df.head())
+
+    print(predictions)
+ 
+The first four lines are when the user inputs the data, the next four are a dictionary which is made containing the inputted data, the following two are how the computer calculates the average price and the final line prints the predictions.
+
 
 ### Evaluation
 I feel that this project went well as it enabled me to successfully achieve a greater understanding of how computers learn and I was able to create a project which analysed data and was able to make predictions based on that data.
