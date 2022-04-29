@@ -98,3 +98,21 @@ The program firstly imports “pandas”, which is used for reading the data, th
 ### Evaluation
 
 I feel that this project went well because I successfully created a project which could analyse data and present it in a series of graphs which showed different statistics about chess games.
+
+
+## Phone Reviews
+
+### Introduction
+I chose to create this project because I wanted to develop a greater understanding of data science and natural language processing. This project uses training data to learn how to determine what the star rating of a review would be based on the words in that review.
+
+### Project Goals/Requirements
+I chose to develop this program by using python because I wanted to use “spaCy” for the natural language processing and “pandas” for reading the data. I also wanted to use python because I decided to create a text-based program and I thought that python would be most suited if I were to create a project with this requirement.
+
+The end purpose of this project is for me to develop a greater understanding of using computers to create data science projects, analysing data and natural language processing.
+
+### Design
+This is a text based program. The user interacts with the computer by typing a review into a box. The computer then decided whether this review is positive or negative and gives it a “star rating”. This rating goes from a series of one to five, with one being the worst and five being the best. The computer prints out a number followed by a decimal number.
+
+    {'1 star': 0.42582544684410095, '2 stars': 0.3665180206298828, '3 stars': 0.3938756585121155, '4 stars': 0.4008767902851105, '5 stars': 0.49512746930122375}
+
+The decimal points below show the likelyhoods that the review would be given that number of stars.
