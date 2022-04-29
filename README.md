@@ -111,8 +111,18 @@ I chose to develop this program by using python because I wanted to use “spaCy
 The end purpose of this project is for me to develop a greater understanding of using computers to create data science projects, analysing data and natural language processing.
 
 ### Design
-This is a text based program. The user interacts with the computer by typing a review into a box. The computer then decided whether this review is positive or negative and gives it a “star rating”. This rating goes from a series of one to five, with one being the worst and five being the best. The computer prints out a number followed by a decimal number.
+This is a text based program. The user interacts with the computer by typing a review into a box. The computer then decided whether this review is positive or negative and gives it a “star rating”. This rating goes from a series of one to five, with one being the worst and five being the best. The computer prints out a number followed by a decimal number. 
 
     {'1 star': 0.42582544684410095, '2 stars': 0.3665180206298828, '3 stars': 0.3938756585121155, '4 stars': 0.4008767902851105, '5 stars': 0.49512746930122375}
 
-The decimal points below show the likelyhoods that the review would be given that number of stars.
+The higher the number, the higher the likelihood that the review being given that star rating.
+
+### Issues during the project
+There is an issue with this project. Despite the project being accurate when dealing with positive reviews, it is not accurate when the reviews are negative. When the reviews are negative, they are given higher, more positive star ratings than they should be. A possible cause of this is the data set which I use for this project.
+
+### Evaluation
+I think that this project went well because from this project I developed a greater understanding of using computers to create data science projects, analysing data and natural language processing. 
+
+I also created a project which could determine the star rating of a review based on training data and the language used in that review. 
+
+However, this project was not accurate when the reviews were negative. A possible cause of this is the data that I had used whilst making this project. Therefore, if I were to do this project again, I would use a different data set.
