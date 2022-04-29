@@ -79,3 +79,22 @@ I felt that this project went well because I succeeded in creating a project whi
 
 A project like this would improve how we look at climate change in the future because it shows how rapidly temperatures are increasing and it also shows that climate change is happening.
 
+## Chess Analysis
+
+### Introduction
+I decided to create this project because I wanted to design a project which could analyse chess games and plot graphs based on the fifty most common openings, the different possible outcomes of games and the most common ratings. I chose to make this project about chess as it is a game which I enjoy playing.
+
+### Project Goals/Requirements
+I chose to code this using python because I wanted to use “matplotlib.pyplot” and “seaborn” to draw the graphs and present the data. Additionally, I also decided to use this programming language because I feel that python is the language where I can best create a project which would include data and analysis. 
+
+The end purpose of this project is to present data about chess games in a series of graphs.
+
+### Design
+
+This project does not have a user interface, its only purpose is to display the data contained in the data sets. There is no way for the user to interact with the computer.
+
+The program firstly imports “pandas”, which is used for reading the data, then it imports “matplotlib.pyplot” to draw the graphs and present the data, next it imports “seaborn” which is used for making statistical graphs. Afterwards, the computer loads the data and presents it in a series of tables. Then the computer plots the graphs: firstly the results, then the ratings and then how many times the fifty most common openings were played.
+
+### Evaluation
+
+I feel that this project went well because I successfully created a project which could analyse data and present it in a series of graphs which showed different statistics about chess games.
