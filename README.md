@@ -123,6 +123,6 @@ There is an issue with this project. Despite the project being accurate when dea
 ### Evaluation
 I think that this project went well because from this project I developed a greater understanding of using computers to create data science projects, analysing data and natural language processing. 
 
-I also created a project which could determine the star rating of a review based on training data and the language used in that review. 
+I also created a project which could determine the star rating of a review based on training data.
 
 However, this project was not accurate when the reviews were negative. A possible cause of this is the data that I had used whilst making this project. Therefore, if I were to do this project again, I would use a different data set.
