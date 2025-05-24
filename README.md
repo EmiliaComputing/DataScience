@@ -2,6 +2,7 @@
 These are data science projects.
 
 ## Prices
+(completed 2022)
 
 ### Introduction
 I chose to create this project because I wanted to develop a greater understanding of data science. This project uses training data to learn how to predict the average cost of houses in an area. To predict the price, this project requires the user to input four integers, the total number of rooms, the total number of bedrooms, the median age of the housing and the number of houses in the area. 
@@ -42,6 +43,7 @@ The first four lines are when the user inputs the data, the next four are a dict
 I feel that this project went well as it enabled me to successfully achieve a greater understanding of how computers learn and I was able to create a project which analysed data and was able to make predictions based on that data.
 
 ## Sentences
+(completed 2022)
 
 ### Introduction
 I decided to create this project because I wanted to gain a greater understanding of data science and how artificial intelligence is used to gather information. This project decides which words in a sentence are important and which are not.
@@ -59,7 +61,8 @@ Afterwards, the computer uses the phrase matcher which was imported from spaCy t
 ### Evaluation
 I feel that this project went well as it enabled me to successfully achieve a greater understanding of how computers learn as well as how they analyse text and data. Additionally, I was able to create a project which analysed text and was able to make statements based on that data.
 
-## Global Warming
+## Global Warming Project
+(completed 2022)
 
 ### Introduction
 I chose to create this project because I wanted to develop a greater understanding of data science. This project attempts to prove that climate change is real by drawing graphs showing the average temperature rising whilst the uncertainty about those temperatures is going down. 
@@ -80,6 +83,7 @@ I felt that this project went well because I succeeded in creating a project whi
 A project like this would improve how we look at climate change in the future because it shows how rapidly temperatures are increasing and it also shows that climate change is happening.
 
 ## Chess Analysis
+(completed 2022)
 
 ### Introduction
 I decided to create this project because I wanted to design a project which could analyse chess games and plot graphs based on the fifty most common openings, the different possible outcomes of games and the most common ratings. I chose to make this project about chess as it is a game which I enjoy playing.
@@ -101,6 +105,7 @@ I feel that this project went well because I successfully created a project whic
 
 
 ## Phone Reviews
+(completed 2022)
 
 ### Introduction
 I chose to create this project because I wanted to develop a greater understanding of data science and natural language processing. This project uses training data to learn how to determine what the star rating of a review would be based on the words in that review.
